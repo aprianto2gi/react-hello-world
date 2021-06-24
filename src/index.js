@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import HelloComponent from './component/HelloComponent';
-import StateFullComponent from './container/StateFullContainer';
-import YoutubeComp from './component/YoutubeComp/YoutubeComp';
+import Home from "./container/Home/Home";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <YoutubeComp />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
